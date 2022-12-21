@@ -1,0 +1,30 @@
+.main_container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.text_container{
+  width: 40vw;
+  height: 100%;
+}
+
+.text_container > textarea {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  height: calc(100vh - 7rem);
+  border: 2px solid grey;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.markdown_preview{
+  position: relative;
+  width: 40vw;
+  height: calc(100vh - 7rem);
+  border: 2px solid grey;
+  padding: 2rem;
+  border-radius: 10px;
+}
