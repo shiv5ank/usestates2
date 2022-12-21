@@ -17,14 +17,13 @@
   height: calc(100vh - 7rem);
   border: 2px solid grey;
   padding: 2rem;
-  border-radius: 10px;
 }
 
 .markdown_preview{
-  position: relative;
   width: 40vw;
   height: calc(100vh - 7rem);
   border: 2px solid grey;
-  padding: 2rem;
-  border-radius: 10px;
+  background-color: rgb(220, 234, 241);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
